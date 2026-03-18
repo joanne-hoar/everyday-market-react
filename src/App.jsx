@@ -1,9 +1,10 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import spaceImg from './assets/nasa.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // todo: turn this into something useful
+  //  const [count, setCount] = useState(0)
 
   return (
     <>

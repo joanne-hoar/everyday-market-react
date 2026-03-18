@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import spaceImg from './assets/nasa.png'
+import Header from './header.jsx'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+    <Header />
     <img src={spaceImg} alt="Home Image" />
     </>
   )
